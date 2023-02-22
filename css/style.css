@@ -1,0 +1,168 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color:rgb(31, 12, 85, 0.70)  ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+a {
+    text-decoration: none;
+    color: #CCCCFF !important;
+}
+
+    a:hover {
+        color: white !important;
+    }
+
+ul {
+    list-style: none;
+}
+ul li a{
+    font-size:20px
+}
+.dropdown-menu{
+    opacity:0.8
+}
+.dropdown-divider{
+    color:white
+}
+
+.carousel-inner h1 {
+    text-shadow: 1px 1px #333;
+    font-size: 45px
+}
+@media (min-width:700px) {
+    .form-control {
+        width: 350px;
+    }
+} 
+
+.carousel-inner .carousel-caption {
+    background: rgb(18, 4, 57, 0.58);
+    border-radius: 15px;
+}
+
+.card-body h2 {
+    font-size: 50px;
+}
+.card-body p {
+    font-size:20px;
+}
+.pro{
+    background-color:rgb(6, 12, 52)
+}
+
+code {
+    font-size: 18px !important;
+}
+
+
+.btnbefo::before {
+    position: absolute;
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent lightblue transparent;
+    top: 20px;
+    left: 13px;
+    display: none;
+}
+
+.btnbefo::after {
+    position: absolute;
+    content: " ";
+    height: 40px;
+    width: 80px;
+    background-color: lightblue;
+    top: 40px;
+    left: -15px;
+    border-radius: 5px;
+    display: none;
+}
+
+.btnbefo:active::before,
+.btn:hover::before {
+    display: block;
+}
+
+.btnbefo:hover::after {
+    content: "copy to clipboard";
+    display: block;
+}
+
+.btnbefo:active::after {
+    content: "copied";
+    display: block;
+    height: 25px;
+}
+.myicon {
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 17px;
+}
+
+.fixedimg {
+    background-attachment: fixed;
+    background-size:  cover;
+    height: 300px;
+}
+
+.fixedimg1 {
+    background-image: url(../images/pexels-bich-tran-669996.jpg);
+}
+
+.fixedimg2 {
+    background-image: url(../images/soheb-zaidi-Hsy-00ELv38-unsplash.jpg);
+}
+
+.btnbefo {
+    position: relative;
+    left: 30px;
+}
+
+
+    .btnbefo::before {
+        position: absolute;
+        content: "";
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent transparent lightblue transparent;
+        top: 20px;
+        left: 13px;
+        display: none;
+    }
+
+    .btnbefo::after {
+        position: absolute;
+        content: " ";
+        height: 40px;
+        width: 80px;
+        background-color: lightblue;
+        top: 40px;
+        left: -15px;
+        border-radius: 5px;
+        display: none;
+    }
+
+
+
+.navbar-brand {
+    transition: 0.4s;
+}
+
+    .navbar-brand:hover {
+        text-shadow: 10px 10px 20px white, -10px -10px 20px white;
+    }
+
+.dropdown-menu li a {
+    text-shadow: 1px 1px 0px black;
+}
